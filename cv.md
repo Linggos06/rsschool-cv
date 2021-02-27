@@ -36,8 +36,8 @@ A simple todo list built with Node.js, its Express framework and ejs templating 
 
 ## _Education_
 
-**Responsive Web Design** - FreeCodeCamp(2020)
-**JavaScript Algorithms and Data Structures** - FreeCodeCamp(2020)
+* **Responsive Web Design** - FreeCodeCamp(2020)
+* **JavaScript Algorithms and Data Structures** - FreeCodeCamp(2020)
 
 ## _Languages_
 English - **B1**
