@@ -1,6 +1,7 @@
 # Iuliia Senchuk Senturklu
 ## _Contact info_
 **Phone:** +90 531 621 85 53
+
 **E-mail:** julia.snk@gmail.com
 
 ## _Summary_
@@ -30,8 +31,10 @@ const printNumbers = {
   ## _Work Experience_
   ### My Projects
   1. **Carrier app** (https://github.com/Linggos06/carrier-app)
+  
   Developed for quick searching any carrier in the database. It's React app with backend part and MongoDB database.
 2. **To_Do_List** (https://github.com/Linggos06/to_do_list)
+
 A simple todo list built with Node.js, its Express framework and ejs templating language.
 
 ## _Education_
