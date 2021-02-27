@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    main {
+      width: 80%;
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #header {
+      display: flex;
+      justify-content: center;
+    }
+
+    .cv_photo {
+      max-width: 15%;
+      border-radius: 50%;
+    }
+
+    #iuliia-senchuk-senturklu {
+      align-self: center;
+      padding-left: 20px;
+    }
+
+    section {
+      padding: 15px;
+      margin: 0 auto;
+    }
+
+    section h2 { padding-bottom: 20px; }
+
+
+    #skills h2 {
+      position: relative;
+      right: 15px;
+    }
+
+    #skills ul {
+      text-align: left;
+      width: 70px;
+      margin: 0 auto;
+    }
+
+    #projects h3 { padding-bottom: 15px; }
+
+    #projects ol {
+      text-align: left;
+      line-height: 25px;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    #education li {
+      text-align: left;
+      width: 50%;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section id="header">
+      <img class="cv_photo" src="IMG_20190613_193852_876.jpg" alt="My photo">
+      <h1 id="iuliia-senchuk-senturklu">Iuliia Senchuk Senturklu</h1>
+    </section>
+
+    <section id="contacts">
+      <h2 id="_contact-info_"><em>Contact info</em></h2>
+      <p><strong>Phone:</strong> +90 531 621 85 53</p>
+      <p><strong>E-mail:</strong> julia.snk@gmail.com</p>
+    </section>
+    <section id="summary">
+      <h2 id="_summary_"><em>Summary</em></h2>
+      <p>I&#39;d want to switch careers and become a frontend developer. I&#39;ve already designed some projects
+        (all of
+        them are presented in my Github account) and I hope with help of this course I can expand my knowledges
+        and
+        finally land a job.</p>
+    </section>
+
+    <section id="skills">
+      <h2 id="_skills_"><em>Skills</em></h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+
+    </section>
+
+    <section id="code">
+      <h2 id="_code-examples_"><em>Code Examples</em></h2>
+      <pre><code>const printNumbers = {
+        phrase: <span class="hljs-string">'The current value is:'</span>,
+        numbers: [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>],
+        <span class="hljs-keyword">loop</span>() {
+          <span class="hljs-keyword">this</span>.numbers.forEach(<span class="hljs-function"><span class="hljs-params">(number)</span> =&gt;</span> {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.phrase, number);
+          })
+        },
+      }
+      printNumbers.<span class="hljs-keyword">loop</span>();
+    </code></pre>
+    </section>
+
+    <section id="projects">
+      <h2 id="_work-experience_"><em>Work Experience</em></h2>
+      <h3 id="my-projects">My Projects</h3>
+      <ol>
+        <li><strong>Carrier app</strong> (<a
+            href="https://github.com/Linggos06/carrier-app">https://github.com/Linggos06/carrier-app</a>)
+          Developed for quick searching any carrier in the database. It&#39;s React app with backend part and
+          MongoDB
+          database.</li>
+        <li><strong>To_Do_List</strong> (<a
+            href="https://github.com/Linggos06/to_do_list">https://github.com/Linggos06/to_do_list</a>)
+          A simple todo list built with Node.js, its Express framework and ejs templating language.</li>
+      </ol>
+    </section>
+
+    <section id="education">
+      <h2 id="_education_"><em>Education</em></h2>
+      <ul>
+        <li><strong>Responsive Web Design</strong> - FreeCodeCamp(2020)</li>
+        <li><strong>JavaScript Algorithms and Data Structures</strong> - FreeCodeCamp(2020)</li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2 id="_languages_"><em>Languages</em></h2>
+      <p>English - <strong>B1</strong></p>
+    </section>
+
+  </main>
+</body>
+
+</html>
